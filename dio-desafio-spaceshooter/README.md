@@ -1,6 +1,5 @@
 # dio-desafio-spaceshooter
 
-[Space Shooter](https://marcelogomes90.github.io/dio-desafio-spaceshooter/)
 
 ![15-58-30](https://user-images.githubusercontent.com/94990663/163688344-514c9c84-e946-42bb-b6a8-85c1bd4a32a5.gif)
 
@@ -16,3 +15,5 @@ Foram implementadas as seguintes melhorias em relação ao projeto original:
 - Ajustes e melhorias na jogabilidade.
 
 Para a elaboração do projeto foi utilizado HTML5, CSS3, e JavaScript.
+
+Deploy: [Space Shooter](https://dio-deafio-spaceshooter.netlify.app)
