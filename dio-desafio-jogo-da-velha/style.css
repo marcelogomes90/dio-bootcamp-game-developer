@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body {
+    font-family: 'Play', sans-serif;
+    background-color: rgb(34, 34, 92);
+    color: rgb(240, 240, 21);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(240, 240, 21);
+    display: inline-block;
+    padding: 30px;
+    font-size: 40px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(240, 240, 21);
+    border-radius: 4%;
+    opacity: 90%;
+    font-weight: 1000;
+}
+
+.jogador, .vencedor {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Play', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 21);
+    color: rgb(34, 34, 92);
+    font-size: 20px;
+    font-weight: 1000;
+}

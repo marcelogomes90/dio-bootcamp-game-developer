@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.principal {
+    background: rgb(248, 248, 248);
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.dino {
+    background: url('./img/dino.png');
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+    bottom: 0;
+    background: url('./img/cactus.png');
+}
+
+#pontuacao {
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    color: rgb(83, 83, 83);
+}
+
+.game-over {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+
+    to {
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    text-align: center;
+    background: url('./img/background.png');
+    animation: slideright 1200s infinite linear;
+    width: 100%;
+    height: 200px;
+    background-repeat: repeat-x;
+    bottom: 0;
+}
+
+input {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 60px;
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+    background-color: whitesmoke;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#inicia {
+    text-align: center;
+    color: rgb(83, 83, 83);
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: 200px;
+}

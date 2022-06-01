@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    color: rgb(31, 12, 0);
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: rgb(31, 12, 0);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    color: rgb(31, 12, 0);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:focus:active {
+    width: 150px;
+    height: 50px;
+}
+
+#container {
+    width: 950px;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+
+#fundoGame {
+    width: 900px;
+    height: 500px;
+    background-image: url('../img/fundo_jogo.jpg');
+    background-size: cover;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#inicio {
+    width: 300px;
+    height: 210px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+#fim {
+    width: 300px;
+    height: 180px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2%;
+}
+
+#jogador {
+    width: 256px;
+    height: 66px;
+    position: absolute;
+    left: 50px;
+    top: 179px;
+    background-image: url('../img/apache.png');
+}
+
+#inimigo1 {
+    width: 256px;
+    height: 66px;
+    position: absolute;
+    left: 600px;
+    top: 253px;
+    background-image: url('../img/inimigo1.png')
+}
+
+#inimigo2 {
+    width: 165px;
+    height: 70px;
+    position: absolute;
+    left: 760px;
+    top: 400px;
+    background-image: url('../img/inimigo2.png')
+}
+
+#amigo {
+    width: 44px;
+    height: 51px;
+    position: absolute;
+    left: 30px;
+    top: 420px;
+    background-image: url('../img/amigo.png')
+}
+
+#disparo {
+    width: 50px;
+    height: 8px;
+    position: absolute;
+    background-image: url('../img/disparo.png');
+}
+
+#explosao1 {
+    width: 15px;
+    height: 87px;
+    position: absolute;
+}
+
+#explosao2 {
+    width: 15px;
+    height: 87px;
+    position: absolute;
+}
+
+#explosao3 {
+    width: 44px;
+    height: 51px;
+    position: absolute;
+}
+
+#placar {
+    text-align: center;
+    width: 879px;
+    height: 38px;
+    position: absolute;
+    left: 30px;
+    top: 520px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#energia {
+    width: 140px;
+    height: 38px;
+    position: absolute;
+    left: 760px;
+    top: 22px;
+    opacity: 60%;
+}
+
+.anima1 {
+    background-image: url('../img/apache.png');
+    animation: play .5s steps(2) infinite;
+}
+
+.anima2 {
+    background-image: url('../img/inimigo1.png');
+    animation: play .5s steps(2) infinite;
+}
+
+.anima3 {
+    background-image: url('../img/amigo.png');
+    animation: play2 .9s steps(12) infinite;
+}
+
+.anima4 {
+    width: 44px;
+    height: 51px;
+    background-image: url('../img/amigo_morte.png');
+    animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play {
+    from {background-position: 0px;}
+    to {background-position: -512px;}
+}
+
+@keyframes play2 {
+    from {background-position: 0px;}
+    to {background-position: -528px;}
+}
+
+@keyframes play3 {
+    from {background-position: 0px;}
+    to {background-position: -308px;}
+}
