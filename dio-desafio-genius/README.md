@@ -1,6 +1,6 @@
 # dio-desafio-genius
 
-[Genius](https://marcelogomes90.github.io/dio-desafio-genius/)
+[Genius](https://dio-desafio-genius.netlify.app/)
 
 Projeto para criar um jogo Genius, proposto pelo bootcamp Órbi Web Games Developer e com o objetivo de aplicar o conhecimento das aulas abordadas.
 
