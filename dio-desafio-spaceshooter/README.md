@@ -1,4 +1,4 @@
-# Deafio Dio Spaceshooter
+# Desafio Dio Spaceshooter
 
 
 ![15-58-30](https://user-images.githubusercontent.com/94990663/163688344-514c9c84-e946-42bb-b6a8-85c1bd4a32a5.gif)
